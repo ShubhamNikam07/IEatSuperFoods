@@ -1,0 +1,58 @@
+﻿{
+  "mode": "built-in image_gen",
+  "date": "2026-10-25",
+  "outputs": [
+    {
+      "file": "public/images/enhanced/brand-promise.png",
+      "original": "public/images/originals/brand-promise.png"
+    },
+    {
+      "file": "public/images/enhanced/brand-celebration.png",
+      "original": "public/images/originals/brand-celebration.png"
+    },
+    {
+      "file": "public/images/enhanced/chai-moment.png",
+      "original": "public/images/originals/chai-moment.png"
+    },
+    {
+      "file": "public/images/enhanced/community-at-home.png",
+      "original": "public/images/originals/community-at-home.png"
+    },
+    {
+      "file": "public/images/enhanced/community-on-the-go.png",
+      "original": "public/images/originals/community-on-the-go.png"
+    }
+  ],
+  "prompts": [
+    {
+      "key": "brand-promise",
+      "source": "112402",
+      "prompt": "Use case: precise-object-edit. Edit target: the attached SuperFoods \"No Means No\" cookie poster. Enhance this exact image for a brand website: upscale, reduce JPEG artifacts, recover natural cookie texture, improve legibility and edge clarity with restrained sharpening. Preserve the composition, hands, plate, cookies, logo, all wording, brown lower panel and warm parchment cream upper panel exactly. Keep original aspect ratio. Do not re-design, invent text, add objects or change claims. No stark white. Output a single clean high-resolution poster."
+    },
+    {
+      "key": "brand-celebration",
+      "source": "112418",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied SuperFoods product display photographed beside a Ganesh idol at a celebration. Conservatively enhance this exact photograph: upscale, gently reduce compression and noise, improve exposure of packaging without clipping highlights, recover restrained detail and natural colors. Preserve every product, the real packaging and all existing visible text, religious scene, objects and composition. Do not hallucinate or rewrite small illegible text. Remove only the dark screenshot corners by extending the adjacent image to square corners if needed. No added wording, people or objects. Maintain portrait aspect ratio."
+    },
+    {
+      "key": "chai-moment",
+      "source": "112424",
+      "prompt": "Use case: identity-preserve. Edit target: supplied SuperFoods lifestyle poster of a woman eating a cookie on a couch beside green 5-Grain Cookies packaging. Enhance this exact poster conservatively: upscale, reduce compression noise, improve clarity, natural warm light and texture. Preserve the exact woman identity, facial features, expression, skin tone, pose, clothing, product, layout, brand logo, all wording and Flipkart mark. No invented details, face changes, new text or objects. Keep original portrait aspect ratio and restore screenshot rounded corners with adjacent image where needed."
+    },
+    {
+      "key": "community-at-home",
+      "source": "112435",
+      "prompt": "Use case: identity-preserve. Edit target: supplied low-resolution candid photo of a seated person holding a green SuperFoods cookie box close to camera. Conservatively restore this exact frame: reduce noise and compression, upscale, improve exposure and modest edge definition. Preserve person identity, blurred/obscured face, body, hand, clothes, package, all visible words including overlaid \"Super\", and the original room. Keep authentic candid feel; do not invent facial details, sharpen the person into a different identity, rewrite packaging or add detail not supported by the source. Preserve portrait aspect ratio. Fill only screenshot dark rounded corners with matching neighboring background."
+    },
+    {
+      "key": "community-on-the-go",
+      "source": "112451",
+      "prompt": "Use case: identity-preserve. Edit target: supplied candid portrait of a man in a blue blazer holding a green SuperFoods cookie package. Conservatively enhance this exact photo: upscale, reduce noise and JPEG artifacts, modestly improve exposure, natural skin texture and package clarity. Lock the exact identity, facial features, expression, skin tone, hair, forehead mark, clothes, hand, package, background and composition. Preserve all visible original wording; do not invent or rewrite small unreadable package text. No beauty retouching, face substitution or added objects. Maintain original portrait aspect ratio; fill rounded screenshot corners with neighboring background if necessary."
+    },
+    {
+      "key": "community-on-the-go",
+      "stage": "title-correction",
+      "prompt": "Use case: text-localization. Edit target Image 1 is the enhanced man holding SuperFoods package. Reference Image 2 is the original supplied low resolution photo. Correct ONLY the large yellow product title on the green package in Image 1 to exactly two lines: \"Desi Cow Ghee\" and \"5-Grain Cookies\". It currently says the wrong cookie name. Keep \"Sweetened with Jaggery\" beneath. Remove the invented \"Traditionally Super Healthy\" line, replacing it with the plain green package background. Preserve the rest of Image 1 exactly, especially the same man, identity, features, skin, clothes, forehead mark, photo composition and background, cookie artwork, logo and remaining package text. Do not introduce any new text or claims. Keep image dimensions and portrait framing."
+    }
+  ]
+}
